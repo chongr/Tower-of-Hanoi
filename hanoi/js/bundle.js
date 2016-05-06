@@ -79,6 +79,7 @@
 	    }
 	    else {
 	      window.alert("Invalid move");
+	      this.clickedPileNum = null;
 	    }
 	    this.render();
 	  }

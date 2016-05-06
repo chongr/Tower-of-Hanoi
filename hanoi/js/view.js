@@ -19,6 +19,7 @@ View.prototype.clickTower = function(e) {
     }
     else {
       window.alert("Invalid move");
+      this.clickedPileNum = null;
     }
     this.render();
   }
